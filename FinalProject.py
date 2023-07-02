@@ -55,6 +55,7 @@ def main():
                 elif response.lower() == "register":
                     data_utils.register(students, student_id, registration_info, courses)
                 elif response.lower() == "menu":
+                    print()
                     data_utils.display_menu1()
                 elif response.lower() == "exit":
                     print("Session ended.")
